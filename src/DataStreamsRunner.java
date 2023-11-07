@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class DataStreamsRunner {
+public class DataStreamsRunner
+{
+    public static void main(String[] args)
+    {
+        DataStreamsFrame frame = new DataStreamsFrame();
+        frame.setVisible(true);
+    }
 }
